@@ -1,1 +1,298 @@
-/*! theme.css v1.0.0 | MIT License | https://github.com/diogofilipee/brackets-macOS-Xcode-Dusk */
+/*! theme.css v1.0.1 | MIT License | https://github.com/diogofilipee/brackets-macOS-Xcode-Dusk */
+
+.pane-header {
+    background-color: #fff;
+    border-bottom: 1px solid #b3b3b3
+}
+
+.pane-header-text {
+    color: #000;
+    font-family: "Meiryo UI", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 12px
+}
+
+.pane-header-flipview-btn,
+.pane-header-close-btn {
+    cursor: pointer
+}
+
+.pane-header-flipview-btn.flipview-icon-bottom {
+    background-position: center -36px
+}
+
+.pane-header-flipview-btn.flipview-icon-top {
+    background-position: center 0px
+}
+
+.pane-content .not-editor {
+    background-color: #282b35
+}
+
+.CodeMirror {
+    background-color: #282b35;
+    color: #fff;
+    font-family: Menlo, 'MS Gothic', monospace;
+    font-size: 11px !important;
+    line-height: normal
+}
+
+.CodeMirror-scroll {
+    background-color: #282b35
+}
+
+.CodeMirror-gutters {
+    background-color: #3f4149;
+    border-right: 1px solid #52545b
+}
+
+.CodeMirror-gutters .CodeMirror-linenumbers {
+    width: 43px !important
+}
+
+.CodeMirror-matchingbracket {
+    background-color: #65654d;
+    color: inherit !important
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #fff
+}
+
+.CodeMirror-searching {
+    background-color: #fcf9cc
+}
+
+.CodeMirror-searching.searching-first {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px
+}
+
+.CodeMirror-searching.searching-last {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px
+}
+
+.CodeMirror-searching.searching-current-match {
+    background-color: #f6e169
+    
+}
+
+/* html, xml */
+
+.cm-m-xml {
+    color: #fff
+}
+
+.cm-m-xml.cm-keyword {
+    color: inherit;
+}
+
+.cm-m-xml.cm-atom {
+    color: inherit
+}
+
+.cm-m-xml.cm-number {
+    color: #1c00cf
+}
+
+.cm-m-xml.cm-def {
+    color: inherit
+}
+
+.cm-m-xml.cm-variable {
+    color: inherit
+}
+
+.cm-m-xml.cm-variable-2 {
+    color: inherit
+}
+
+.cm-m-xml.cm-variable-3 {
+    color: inherit
+}
+
+.cm-m-xml.cm-operator {
+    color: inherit
+}
+
+.cm-m-xml.cm-comment {
+    color: #52be5c
+}
+
+.cm-m-xml.cm-string {
+    color: #e2454a
+}
+
+.cm-m-xml.cm-string-2 {
+    color: inherit
+}
+
+.cm-m-xml.cm-meta {
+    color: #c03999
+}
+
+.cm-m-xml.cm-qualifier {
+    color: inherit
+}
+
+.cm-m-xml.cm-builtin {
+    color: inherit
+}
+
+.cm-m-xml.cm-bracket {
+    color: #c03999
+}
+
+.cm-m-xml.cm-tag {
+    color: #c03999
+}
+
+.cm-m-xml.cm-attribute {
+    color: #68878e
+}
+
+.cm-m-xml.cm-header {
+    color: inherit
+}
+
+.cm-m-xml.cm-quote {
+    color: inherit
+}
+
+.cm-m-xml.cm-hr {
+    color: inherit
+}
+
+.cm-m-xml.cm-link {
+    color: #5471d7
+}
+
+.cm-m-xml.cm-rangeinfo {
+    color: inherit
+}
+
+.cm-m-xml.cm-minus {
+    color: inherit
+}
+
+.cm-m-xml.cm-plus {
+    color: inherit
+}
+
+.cm-m-xml.cm-property {
+    color: inherit
+}
+
+.cm-m-xml.cm-error {
+    color: inherit
+}
+
+/* css, less */
+
+.cm-m-css {
+    color: #fff
+}
+
+.cm-m-css.cm-keyword {
+    color: #c03999
+}
+
+.cm-m-css.cm-atom {
+    color: #8b85cd
+}
+
+.cm-m-css.cm-number {
+    color: #8b85cd
+}
+
+.cm-m-css.cm-def {
+    color: inherit
+}
+
+.cm-m-css.cm-variable {
+    color: inherit
+}
+
+.cm-m-css.cm-variable-2 {
+    color: inherit
+}
+
+.cm-m-css.cm-variable-3 {
+    color: #c03999
+}
+
+.cm-m-css.cm-operator {
+    color: inherit
+}
+
+.cm-m-css.cm-comment {
+    color: #52be5c
+}
+
+.cm-m-css.cm-string {
+    color: #e2454a
+}
+
+.cm-m-css.cm-string-2 {
+    color: inherit
+}
+
+.cm-m-css.cm-meta {
+    color: inherit
+}
+
+.cm-m-css.cm-qualifier {
+    color: #fff
+}
+
+.cm-m-css.cm-builtin {
+    color: inherit
+}
+
+.cm-m-css.cm-bracket {
+    color: inherit
+}
+
+.cm-m-css.cm-tag {
+    color: #000
+}
+
+.cm-m-css.cm-attribute {
+    color: inherit
+}
+
+.cm-m-css.cm-header {
+    color: inherit
+}
+
+.cm-m-css.cm-quote {
+    color: inherit
+}
+
+.cm-m-css.cm-hr {
+    color: inherit
+}
+
+.cm-m-css.cm-link {
+    color: #5471d7
+}
+
+.cm-m-css.cm-rangeinfo {
+    color: inherit
+}
+
+.cm-m-css.cm-minus {
+    color: inherit
+}
+
+.cm-m-css.cm-plus {
+    color: inherit
+}
+
+.cm-m-css.cm-property {
+    color: #c03999
+}
+
+.cm-m-css.cm-error {
+    color: inherit
+}

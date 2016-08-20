@@ -3,7 +3,7 @@
     "title": "macOS Xcode Dusk Theme",
     "description": "The saga of macOS Xcode themes continue! After macOS Xcode default theme take a look to new Dusk theme for Brackets!",
     "homepage": "https://github.com/diogofilipee/brackets-macOS-Xcode-Dusk",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Diogo Filipe <diogo.filipee@hotmail.com> (https://github.com/diogofilipee)",
     "license": "MIT",
     "i18n": ["en", "pt"],
@@ -19,8 +19,8 @@
     "categories": "theme",
     "theme": {
         "file": "theme.css",
-        "dark": true,
+        "dark": false,
         "addModeClass": true
     },
-    "keywords": ["theme", "macos", "xcode", "dusk"]
+    "keywords": ["theme", "macos", "xcode", "dusk", "saga"]
 }
