@@ -59,7 +59,7 @@
 }
 
 .CodeMirror-searching {
-    background-color: #fcf9cc
+    background-color: #595a34
 }
 
 .CodeMirror-searching.searching-first {
@@ -73,7 +73,7 @@
 }
 
 .CodeMirror-searching.searching-current-match {
-    background-color: #f6e169
+    background-color: #b09f4a
     
 }
 
