@@ -1,4 +1,4 @@
-/*! theme.css v1.0.3 | MIT License | https://github.com/diogofilipee/brackets-macOS-Xcode-Dusk */
+/*! theme.css v1.0.5 | MIT License | https://github.com/diogofilipee/brackets-macOS-Xcode-Dusk */
 
 .pane-header {
     background-color: #fff;
@@ -49,6 +49,10 @@
     width: 43px !important
 }
 
+.CodeMirror-selected {
+    background: #787761
+}
+
 .CodeMirror-matchingbracket {
     background-color: #65654d;
     color: inherit !important
@@ -59,7 +63,8 @@
 }
 
 .CodeMirror-searching {
-    background-color: #595a34
+    background-color: #818342;
+    color: #fff !important
 }
 
 .CodeMirror-searching.searching-first {
@@ -73,7 +78,8 @@
 }
 
 .CodeMirror-searching.searching-current-match {
-    background-color: #b09f4a
+    background-color: #b09f4a;
+    color: #fff !important
     
 }
 
@@ -254,7 +260,7 @@
 }
 
 .cm-m-css.cm-tag {
-    color: #000
+    color: #fff
 }
 
 .cm-m-css.cm-attribute {
@@ -294,7 +300,7 @@
 }
 
 .cm-m-css.cm-error {
-    color: inherit
+    color: #fff
 }
 
 /* javascript, json */
