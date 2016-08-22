@@ -1,4 +1,4 @@
-/*! theme.css v1.0.5 | MIT License | https://github.com/diogofilipee/brackets-macOS-Xcode-Dusk */
+/*! theme.css v1.0.6 | MIT License | https://github.com/diogofilipee/brackets-macOS-Xcode-Dusk */
 
 .pane-header {
     background-color: #fff;
@@ -190,7 +190,7 @@
 }
 
 .cm-m-xml.cm-error {
-    color: inherit
+    color: #fff
 }
 
 /* css, less */
@@ -410,7 +410,7 @@
 }
 
 .cm-m-javascript.cm-error {
-    color: inherit
+    color: #fff
 }
 
 /* markdown */
@@ -524,5 +524,5 @@
 }
 
 .cm-m-markdown.cm-error {
-    color: inherit
+    color: #fff
 }
