@@ -1,4 +1,4 @@
-/*! theme.css v1.1.0 | MIT License | https://github.com/diogofilipee/brackets-macOS-Xcode-Dusk */
+/*! theme.css v1.1.1 | MIT License | https://github.com/diogofilipee/brackets-macOS-Xcode-Dusk */
 
 .pane-header {
     background-color: #fff;
@@ -118,7 +118,6 @@
 }
 
 .CodeMirror-linewidget .inline-widget .related-container .related ul {
-    color: ;
     padding: 11px 0 10px 5px
 }
 
@@ -263,8 +262,12 @@
     margin-bottom: 7px
 }
 
+.CodeMirror-linewidget .inline-widget .color-editor aside header .large-swatches {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5)
+}
+
 .CodeMirror-linewidget .inline-widget .color-editor aside header .large-swatch {
-    box-shadow: inset 0 1px 0 #3f4149;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2)
 }
 
 .CodeMirror-linewidget .inline-widget .color-editor aside ul.swatches li .value {
@@ -547,6 +550,10 @@
 }
 
 .cm-m-javascript.cm-string {
+    color: #e2454a
+}
+
+.cm-m-javascript.cm-string.cm-property {
     color: #e2454a
 }
 
