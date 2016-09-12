@@ -1,4 +1,4 @@
-/*! theme.css v1.1.2 | MIT License | https://github.com/diogofilipee/brackets-macOS-Xcode-Dusk */
+/*! theme.css v1.1.4 | MIT License | https://github.com/diogofilipee/brackets-macos-xcode-dusk */
 
 .pane-header {
     background-color: #fff;
@@ -614,7 +614,7 @@
 }
 
 .cm-m-javascript.cm-property {
-    color: #e2454a
+    color: #fff
 }
 
 .cm-m-javascript.cm-error {
